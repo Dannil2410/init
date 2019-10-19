@@ -1,0 +1,3 @@
+# Name of this file is authorised_keys
+# you can find it in .ssh folder
+cat ~/.ssh/authorized_keys

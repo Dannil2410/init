@@ -1,0 +1,2 @@
+# For this you need to find system configuration folder and then modify file hostname
+cat /etc/hostname

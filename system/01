@@ -1,0 +1,2 @@
+# For this you need to find system configuration folder and then search for debian_version
+cat /etc/debian_version 
