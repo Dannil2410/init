@@ -1,0 +1,9 @@
+# change file(s) extension
+echo "enter old file(s) extension:"
+read ext_1
+echo "enter new file(s) extension:"
+read ext_2
+for f in *.$ext_1;
+do
+	mv -- "$f" "${f%.$ext_1}.$ext_2"
+done

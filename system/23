@@ -1,0 +1,4 @@
+# In graphic session you need to launch virtual machine and log in by entering
+# login and password
+# in ssh session you need to write ssh username@IPaddress and then enter
+# the password when it is requested 
