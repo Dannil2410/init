@@ -1,2 +1,1 @@
-kill % 
-#number_of_prozess
+sudo pkill 'prozess_name'

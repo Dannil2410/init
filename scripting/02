@@ -1,3 +1,6 @@
 echo "Enter the login of the user you would like to delete"
 read user
-deluser --remove-home $user
+killall -u $user
+deluser -f $user
+
+exit 0

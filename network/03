@@ -1,1 +1,1 @@
-ifconfig en0 | grep "ether " | cut -c 8-24
+networksetup -getmacaddress Wi-Fi |awk '{print $3}'
